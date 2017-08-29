@@ -10,10 +10,7 @@ func main(){
   )
   /* the i := 0 is also a way of automatically defining Variables */
   for i := 0; i < 1000; i++ {
-    if i % three == 0{
-      sum += i
-
-    } else if i % five == 0 {
+    if i % three == 0 || i % five == 0{
       sum += i
     }
   }
