@@ -8,7 +8,7 @@ func main(){
     five = 5
     three = 3
   )
-  /* the i := is also a way of automatically defining Variables */
+  /* the i := 0 is also a way of automatically defining Variables */
   for i := 0; i < 1000; i++ {
     if i % three == 0{
       sum += i
