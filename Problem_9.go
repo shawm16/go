@@ -28,6 +28,7 @@ func main(){
         if a + b + math.Sqrt(a*a+b*b) == 1000{
           if (a*a) + (b*b) == (math.Sqrt(a*a+b*b)*math.Sqrt(a*a+b*b)) && a < b && b < math.Sqrt(a*a+b*b) {
             fmt.Println(a, "*", b, "*", math.Sqrt(a*a+b*b), "= 1000")
+            /*changing our boolean here bumps us out of our MAIN for loop same for line 24 */
             boolean = 0
           }
         }
